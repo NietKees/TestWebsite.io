@@ -1,0 +1,29 @@
+
+#table1 {
+    border-spacing: 20px;
+    }
+#table2 {
+    border-spacing: 40px;
+    }
+
+.important{
+    font-weight: bold;
+}
+
+#Donut{
+    border-radius: 50px;
+}
+
+h1{
+    color: rgb(28, 112, 46);
+    font-weight: bold;
+}
+h2{
+    color: rgb(50, 143, 70)
+}
+h3{
+    color: rgb(52, 77, 57)
+}
+hr{
+    color:hsl(125, 61%, 57%)
+}

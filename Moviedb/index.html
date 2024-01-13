@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <Meta charset="utf-8">
+        <Meta name="viewport" content="width=device-width,, initial-scale=1.0">
+        <title>MovieDB</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="searchFunction.js" defer></script>
+    </head>
+
+    <body>
+        <header class="BACKGROUND">
+            <form id="SearchBar" class="SEARCHBAR">
+                <input type="text" placeholder="Search for a movie..." name="SearchQuery" id="sq" class="SEARCH">
+                <button type="submit" id="btn" class="SUBMIT" onclick="search()">Search</button>
+            </form>
+
+            <header class="TITLE"><h1 class="WHITE">MOVIE DATABASE</h1></header>
+            <a href="createList.html"><button style="left: 5%" class="BUTTON"><h2 class="WHITE">Create list</h2></button></a>
+            <a href="login.html"><button style="right: 5%" class="BUTTON"><h2 class="WHITE">Login</h2></button></a>
+
+        </header>
+        <header class="MAINVIEW">
+            <header class="MAIN">
+                <h1 class="WHITE">RESULTS:</h1>
+                <header class="SEARCHRESULTS">  
+                    <h2 id="result">none</h2>     
+                </header>
+            </header>
+            <header class="FRIENDSLISTBOX">
+                <h1 class="WHITE">Friends:</h1>
+                <header class="FRIENDSLIST"> 
+                    <table>
+                        <tr>
+                            <td>
+                                <form class="FORM">
+                                    <div class="CONTAINER">
+                                      <label for="fname"><b>Friend Name:</b></label>
+                                      <input type="text" placeholder="Enter Friend Name" name="fname" id="fname" class="LOGININPUT" required>
+                                       
+                                      <button type="button" id="btn" class="LOGINBUTTON" onclick="search()">Add</button>
+                                    </div>
+                                  </form>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div style="overflow: scroll; height: 200px; width: 300px; justify-content: center;">
+                                    <li style="margin-top: 10px;">Friend A</li>
+                                    <li style="margin-top: 10px;">Friend B</li>
+                                    <li style="margin-top: 10px;">Friend C</li>
+                                    <li style="margin-top: 10px;">Friend D</li>
+                                    <li style="margin-top: 10px;">Friend E</li>
+                                    <li style="margin-top: 10px;">Friend F</li>
+                                    <li style="margin-top: 10px;">Friend G</li>
+                                    <li style="margin-top: 10px;">Friend H</li>
+                                </div>
+                            </td>
+                        </tr>
+                    </table> 
+                </header>
+            </header>
+            <header class="FAVORITELISTBOX">
+                <h1 class="WHITE">Favorite movie lists:</h1>
+                <header class="FAVORITELIST">     
+                    <div style="overflow: scroll; height: 400px; width: 300px; justify-content: center;">
+                        <ul style="margin-top: 20px;">
+                            <li style="margin-top: 20px;"><button class="MLBUTTON" type="button">Movie List A</button></li>
+                            <li style="margin-top: 20px;"><button class="MLBUTTON" type="button">Movie List B</button></li>
+                            <li style="margin-top: 20px;"><button class="MLBUTTON" type="button">Movie List C</button></li>
+                            <li style="margin-top: 20px;"><button class="MLBUTTON" type="button">Movie List D</button></li>
+                            <li style="margin-top: 20px;"><button class="MLBUTTON" type="button">Movie List E</button></li>
+                            <li style="margin-top: 20px;"><button class="MLBUTTON" type="button">Movie List F</button></li>
+                        </ul>
+                    </div>
+                </header>
+            </header>
+        </header>
+    </body>    
+</html>

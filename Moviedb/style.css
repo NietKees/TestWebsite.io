@@ -1,0 +1,215 @@
+body {
+    background-color: rgb(32, 14, 14);
+}
+
+.BACKGROUND{
+    width: 99vw;
+    height: 200px;
+    background: #BF8004;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.SEARCH {
+    background: rgba(254, 255, 240, .5);
+    border-color: #EFECE1;
+    height: 35px;
+    width:  50vw;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.SUBMIT {
+    background: rgba(254, 255, 240, .5);
+    border-color: #EFECE1;
+    height: 40px;
+    width:  5vw;
+    margin-left: 10px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.SEARCHBAR{
+    width: 25vw;
+    height: 37px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    top: 30px;
+}
+
+.WHITE{
+    color: white;
+}
+
+.TITLE{
+    width: 80vw;
+    height: 100px;
+    transform: translate(0, 20px);
+    background: rgba(254, 255, 240, .5);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+}
+
+.BUTTON{
+    background: rgba(254, 255, 240, .5);
+    border-color: #EFECE1;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    top: 30px;
+}
+
+.MLBUTTON{
+    background: rgba(254, 255, 240, .5);
+    border-color: #EFECE1;
+    height: 30px;
+    display: flex;
+    position: absolute;
+}
+
+.MAINVIEW{
+    width: 50vw;
+    left: 25vw;
+    position: absolute;
+    justify-content: center;
+    display: flex;
+}
+
+.SEARCHRESULTS{
+    background-color:#D9D9D9;
+    overflow: scroll;
+    width: 30vw;
+    height: 400px;
+    top: 75px;
+    position: absolute;
+    justify-content: center;
+    display: flex;
+}
+
+.FRIENDSLIST{
+    background-color:#D9D9D9;
+    width: 20vw;
+    height: 400px;
+    top: 75px;
+    position: absolute;
+    padding-left: 20px;
+    justify-content: left;
+    display: flex;
+}
+
+.FAVORITELIST{
+    background-color:#D9D9D9;
+    width: 20vw;
+    height: 400px;
+    top: 75px;
+    position: absolute;
+    padding-left: 20px;
+    justify-content: left;
+    display: flex;
+}
+
+.LOGINBOX{
+    width: 50vw;
+    left: 25vw;
+    position: absolute;
+    justify-content: center;
+    display: flex;
+}
+
+.REGISTER{
+    background-color:#D9D9D9;
+    width: 25vw;
+    height: 400px;
+    top: 75px;
+    position: absolute;
+    justify-content: center;
+    display: none;
+}
+
+.LOGIN{
+    background-color:#D9D9D9;
+    width: 25vw;
+    height: 400px;
+    top: 75px;
+    position: absolute;
+    justify-content: center;
+    display: flex;
+}
+
+.INPUTFIELD{
+    margin-top: 20px;
+    position: absolute;
+    justify-content: center;
+    display: flex;
+}
+
+.FORM {
+    border: 3px solid #f1f1f1;
+  }
+  
+  .LOGININPUT {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  .LOGINBUTTON {
+    background-color: #BF8004;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+
+  .CONTAINER {
+    padding: 16px;
+  }
+
+  .MAIN {
+    width: 50vw;
+    height: 400px;
+    position: absolute;
+    justify-content: center;
+    display: flex;
+  }
+  .FRIENDSLISTBOX {
+    width: 30vw;
+    height: 400px;
+    margin-left: 65vw;
+    position: absolute;
+    justify-content: center;
+    display: flex;
+  }
+
+  .FAVORITELISTBOX {
+    width: 30vw;
+    height: 400px;
+    margin-right: 65vw;
+    position: absolute;
+    justify-content: center;
+    display: flex;
+  }
+
+  .CREATEDLIST{
+    font-size: large;
+}
+  

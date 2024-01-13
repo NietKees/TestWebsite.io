@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <Meta charset="utf-8">
+        <Meta name="viewport" content="width=device-width,, initial-scale=1.0">
+        <title>MovieDB Login</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="addToList.js" defer></script>
+    </head>
+
+    <body>
+        <header class="BACKGROUND">
+            <header class="TITLE"><h1 class="WHITE">MOVIE DATABASE</h1></header>
+            <a href="index.html"><button style="left: 5%" class="BUTTON"><h2 class="WHITE">Back</h2></button></a>
+        </header>
+
+        <header class="MAINVIEW">
+            <header class="MAIN">
+                <h1 class="WHITE">List:</h1>
+                <header class="SEARCHRESULTS">     
+                    <ol id="movieList" class="CREATEDLIST"></ol>
+                </header>
+            </header>
+            <header class="FRIENDSLISTBOX">     
+                <button type="submit" class="BUTTON" style="margin-top: 45px; height: 400px; width: 400px"><h1 style="font-size: 100px;"><b>Create List</b></h1></button>
+            </header>
+            <header class="FAVORITELISTBOX">
+                <h1 class="WHITE">Add new movie to list:</h1>
+                <header class="FAVORITELIST" style="height: 420px;">     
+                    <form class="FORM">
+                        <div class="CONTAINER">
+                          <label for="title"><b>Title:</b></label>
+                          <input type="text" placeholder="Enter Movie List Title" name="mltitle" class="LOGININPUT" required>
+                      
+                          <label for="mldesc"><b>Description:</b></label>
+                          <textarea type="password" placeholder="Enter Movie List Description" name="mldesc" class="LOGININPUT" cols="30" rows="3" required></textarea>
+    
+                          <label for="mladd"><b>Add Movie:</b></label>
+                          <input type="text" id="toBeAdded" placeholder="Enter Movie Title" name="mladd" class="LOGININPUT">
+                           
+                          <button type="button" id="btn" class="LOGINBUTTON" onclick="search()">Add</button>
+                          <p id="result">None</p>
+                        </div>
+                      </form>
+                </header>
+            </header>
+        </header>
+    </body>    
+</html>
